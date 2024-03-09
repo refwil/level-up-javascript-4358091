@@ -42,3 +42,8 @@ class TechnicalBook extends Book {
     return `The current version of this book is ${this.edition}`
   }
 }
+
+const CrackingTheCodingInterview = new TechnicalBook("Cracking The Coding Interview", "Gayle Laackmann McDowell", 1209123, 7, "2.3");
+
+console.log(CrackingTheCodingInterview.availability);
+console.log(CrackingTheCodingInterview.getEdition());
